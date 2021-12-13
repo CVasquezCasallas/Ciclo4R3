@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.dcjd.Vista.Fragment_Sucursales">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="0"
+            android:fontFamily="cursive"
+            android:text="Sucursales"
+            android:textAlignment="center"
+            android:textColor="#030C40"
+            android:textColorHighlight="#2196F3"
+            android:textDirection="firstStrong"
+            android:textSize="48sp"
+            android:typeface="sans" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="?android:attr/listDivider" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen8"
+                    android:layout_width="107dp"
+                    android:layout_height="76dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto8"
+                    android:layout_width="209dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/alice"
+                    android:text="Encuentranos en Bogotá"
+                    android:textAlignment="center"
+                    android:textColor="#090909"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen9"
+                    android:layout_width="107dp"
+                    android:layout_height="76dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:fontFamily="@font/alice"
+                    android:text="Encuentranos en Medellín"
+                    android:textAlignment="center"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen10"
+                    android:layout_width="107dp"
+                    android:layout_height="76dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/alice"
+                    android:text="Encuentranos en Tunja"
+                    android:textAlignment="center"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
